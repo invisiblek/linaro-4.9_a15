@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/media/hdd_linux/linaro/builds/arm-cortex_a15-linux-gnueabihf/arm-cortex_a15-linux-gnueabihf/lib'
+libdir='/home/christopher/Development/linaro/builds/arm-cortex_a15-linux-gnueabihf/arm-cortex_a15-linux-gnueabihf/lib'

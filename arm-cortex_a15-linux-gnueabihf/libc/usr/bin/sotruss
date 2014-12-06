@@ -71,7 +71,7 @@ function do_ambiguous {
 while test $# -gt 0; do
   case "$1" in
   --v | --ve | --ver | --vers | --versi | --versio | --version)
-    echo "sotruss (crosstool-NG linaro-1.13.1+bzr2696 - Linaro GCC 2014.09 - Cortex-A15) 2.19-2014.08"
+    echo "sotruss (crosstool-NG linaro-1.13.1+bzr2709 - Linaro GCC 2014.11 - Cortex-A15) 2.19-2014.08"
     printf $"Copyright (C) %s Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

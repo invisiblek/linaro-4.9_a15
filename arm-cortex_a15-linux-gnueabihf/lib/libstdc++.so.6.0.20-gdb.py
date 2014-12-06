@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/media/hdd_linux/linaro/builds/arm-cortex_a15-linux-gnueabihf/share/gcc-4.9.2/python'
-libdir = '/media/hdd_linux/linaro/builds/arm-cortex_a15-linux-gnueabihf/arm-cortex_a15-linux-gnueabihf/lib'
+pythondir = '/home/christopher/Development/linaro/builds/arm-cortex_a15-linux-gnueabihf/share/gcc-4.9.3/python'
+libdir = '/home/christopher/Development/linaro/builds/arm-cortex_a15-linux-gnueabihf/arm-cortex_a15-linux-gnueabihf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
