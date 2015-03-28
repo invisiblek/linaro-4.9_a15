@@ -110,13 +110,13 @@
 
 /* Define if gcc should always pass --build-id to linker. */
 #ifndef USED_FOR_TARGET
-#define ENABLE_LD_BUILDID 1
+/* #undef ENABLE_LD_BUILDID */
 #endif
 
 
 /* Define to 1 to enable libquadmath support */
 #ifndef USED_FOR_TARGET
-#define ENABLE_LIBQUADMATH_SUPPORT 1
+/* #undef ENABLE_LIBQUADMATH_SUPPORT */
 #endif
 
 
@@ -445,6 +445,12 @@
 /* Define if the assembler understands -mnan=. */
 #ifndef USED_FOR_TARGET
 /* #undef HAVE_AS_NAN */
+#endif
+
+
+/* Define if the assembler understands .module. */
+#ifndef USED_FOR_TARGET
+/* #undef HAVE_AS_DOT_MODULE */
 #endif
 
 
@@ -1212,6 +1218,12 @@
 #endif
 
 
+/* Define if isl_schedule_constraints_compute_schedule exists. */
+#ifndef USED_FOR_TARGET
+/* #undef HAVE_ISL_SCHED_CONSTRAINTS_COMPUTE_SCHEDULE */
+#endif
+
+
 /* Define to 1 if you have the `kill' function. */
 #ifndef USED_FOR_TARGET
 #define HAVE_KILL 1
@@ -1367,7 +1379,7 @@
 
 /* Define to the level of your linker's plugin support. */
 #ifndef USED_FOR_TARGET
-#define HAVE_LTO_PLUGIN 0
+#define HAVE_LTO_PLUGIN 2
 #endif
 
 
